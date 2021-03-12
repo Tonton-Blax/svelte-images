@@ -36,7 +36,7 @@
   * {
     box-sizing: border-box;
   }
-  .bg {
+  .back-ground {
     position: fixed;
     z-index: 1000;
     display: flex;
@@ -62,7 +62,7 @@
 <div>
   {#if isOpen}
     <div
-      class="bg"
+      class="back-ground"
       on:click={handleOuterClick}
       bind:this={background}
       transition:fade={{ duration: 300 }}>
